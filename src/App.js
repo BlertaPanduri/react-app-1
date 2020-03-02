@@ -1,11 +1,11 @@
 import React from 'react';
-import MyForm from "./MyForm"
+import Greeting from "./Greeting"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <MyForm/>
+      <Greeting isLoggedIn = 'true'/>
     </div>
   );
 }

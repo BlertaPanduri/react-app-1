@@ -1,7 +1,7 @@
 import React from 'react';
 function GuestGreeting(props){
 
-    return <h1>Please sing up </h1>
+    return <h1>Please Log In </h1>
 
     
 }

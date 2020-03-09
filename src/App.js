@@ -1,13 +1,16 @@
-import React from 'react';
-import Greeting from "./Greeting"
+import React, { Component } from 'react';
 import './App.css';
+import Mailbox from './Mailbox/Mailbox.js';
 
-function App() {
+class App extends Component() {
+  render() {
+    const message = ["React","Re: React", "Re: Re: React"]
   return (
     <div className="App">
-      <Greeting isLoggedIn = 'true'/>
+      <Mailbox unreadMessages={message}/>
     </div>
   );
+}
 }
 
 export default App;
